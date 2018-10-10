@@ -1,0 +1,9 @@
+#消息对列
+rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    exchangeName: spring-boot-exchange
+    queueName: spring-boot
+    routingKey: foo.bar.#
